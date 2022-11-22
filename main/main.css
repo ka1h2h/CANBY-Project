@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Uber Move';
+    src: url('./../fonts/UberMove-Light.woff');
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('./../fonts/TTNorms.ttf');
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.wrapper__container {
+  
+    
+}
+
+._container {
+    max-width: 1440px;
+    padding: 0px 117px 0px 120px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+

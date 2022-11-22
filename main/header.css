@@ -1,0 +1,75 @@
+.header {
+   
+}
+
+.header__container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;
+   
+  
+}
+
+.header__menu-items {
+    display: flex;
+    white-space: nowrap;
+}
+
+.header__logo {
+   
+}
+
+.header__logo-text {
+    font-family: 'Uber Move';
+    color: #5F5F5F;
+    font-weight: 700;
+    font-size: 18px;
+    border: 3px solid #5F5F5F;
+    border-radius: 8px;
+    padding: 10.5px 12.5px 10px 13.86px;
+    letter-spacing: 8px;
+}
+
+.header__menu {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: calc(18 / 15 * 100%);
+}
+
+.header__menu-items {
+    padding: 0px 0px 0px 27px;
+}
+.header__menu-item {
+    margin: 0px 20px 0px 0px;
+    list-style-type: none;
+}
+
+.menu-link {
+    color: #818181;
+}
+
+.header__autorization {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(22 / 18 * 100%);
+    color: #818181;
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+.header__login {
+    color: #818181;
+}
+
+.header__registration {
+    color: #818181;
+    margin: 0px 0px 0px 10px;
+}
+
+
+
