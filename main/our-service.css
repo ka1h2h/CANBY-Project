@@ -1,0 +1,88 @@
+.our-service {
+
+}
+.our-service__container {
+    margin: 0 auto;
+
+}
+
+
+.our-service__title {
+    line-height: calc(52 / 40 * 100%);
+    font-size: 40px;
+    margin: 0px 0px 42px 0px;
+}
+
+
+.our-service__img-container {
+    height: 240px;
+    background: #D9D9D9;
+    border-radius: 16px;
+}
+
+
+.our-service__img {
+
+}
+
+.our-service__roadmap-container {
+    display: flex;
+}
+
+.our-service__roadmap {
+    width: 281.5px;
+    margin: 51px 24px 0px 0px;
+}
+
+.our-service__roadmap:last-child {
+    margin: 51px 0px 0px 0px;
+}
+
+.roadmap__number-item {
+    font-size: 32px;
+    line-height: calc(38 / 32 * 100%);
+    border-bottom: 1px solid #000000;
+    padding: 0px 0px 13px 0px;
+}
+.roadmap__items {
+    font-size: 24px;
+    line-height: calc(29 / 24 * 100%);
+    padding: 0px 0px 0px 0px;
+}
+.roadmap__item {
+    padding: 20px 0px 0px 11px;
+}
+
+
+.our-service__info {
+    display: flex;
+    padding: 62px 0px 0px 0px;
+
+}
+.our-service__info-container {
+    width: 100%;
+    border: 1px solid #8E8E8E;
+    border-radius: 16px;
+    margin: 0px 24px 0px 0px;
+}
+.our-service__info-container:last-child {
+    margin-right: 0px;
+}
+.info__description {
+    padding: 28px 50px 0px 26px;
+}
+
+.info__details {
+    padding: 41px 0px 19px 27px;
+}
+.details {
+
+}
+.info__details-arrow {
+    margin: 0px 0px 0px 8px;
+    transform: rotate(-90deg);
+
+}
+.details-text {
+    
+}

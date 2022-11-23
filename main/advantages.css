@@ -1,0 +1,126 @@
+.our-advantages {
+    padding: 108px 0px 83px 0px;
+}
+.our-advantages__container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+.advantages__title-text {
+    line-height: calc(52 / 40 * 100%);
+    font-size: 40px;
+    margin: 0px 45px 0px 0px;
+    padding: 0px 20px 0px 0px;
+}
+
+.superiority {
+    display: flex;
+   
+}
+
+.superiority__container {
+    padding: 0px 70px 0px 0px;
+}
+
+.superiority__container:nth-child(3) {
+    padding: 0px 52px 0px 0px;
+}
+
+.superiority__container:nth-child(4) {
+    padding: 0px 0px 0px 0px;
+}
+
+.superiority__container:nth-child(5) {
+    padding: 56px 52px 0px 0px;
+}
+
+.superiority__container:nth-child(6) {
+    padding: 56px 42px 0px 0px;
+}
+
+.superiority__container:nth-child(7) {
+    padding: 56px 45px 0px 0px;
+}
+
+.superiority__container:nth-child(8) {
+    padding: 56px 0px 0px 0px;
+}
+
+
+.superiority__img-container {
+    width: 180px;
+    height: 100px;
+    background: #D9D9D9;
+    border-radius: 8px;
+}
+
+.description {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(22 / 18 * 100%);
+    display: flex;
+    align-items: center;
+    color: #818181;
+}
+
+.superiority__description {
+    margin: 14px 0px 0px 0px;
+}
+
+.registration-marketing {
+    margin: 0 auto;
+}
+.registration-marketing__container {
+    background: #D9D9D9;
+    border-radius: 16px;
+    display: flex;
+    margin: 90px 0px 0px 0px;
+    align-items: center;
+  
+}
+.registration-marketing__title {
+    margin: 0px  0px 0px;
+    padding: 45px 152px 42px 56px;
+}
+
+.registration-marketing__title-text {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: calc(29 / 24 * 100%);
+}
+
+.registration-marketing__description {
+    margin: 14px 0px 0px 0px;
+}
+
+.registration-marketing__btn {
+    margin: 0px 139px 0px 0px;
+}
+
+.our-service__info {
+    display: flex;
+}
+.our-service__info-container {
+    border: 1px solid #8E8E8E;
+border-radius: 16px;
+}
+.info__description {
+    padding: 28px 50px 0px 26px;
+}
+
+.info__details {
+
+}
+.details {
+
+}
+.info__details-arrow {
+
+}
+.details-text {
+
+}
