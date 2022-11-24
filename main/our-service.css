@@ -1,11 +1,7 @@
 .our-service {
+    padding: 0px 0px 95px 0px;
 
 }
-.our-service__container {
-    margin: 0 auto;
-
-}
-
 
 .our-service__title {
     line-height: calc(52 / 40 * 100%);
@@ -20,10 +16,6 @@
     border-radius: 16px;
 }
 
-
-.our-service__img {
-
-}
 
 .our-service__roadmap-container {
     display: flex;
@@ -57,28 +49,35 @@
 .our-service__info {
     display: flex;
     padding: 62px 0px 0px 0px;
+    
 
 }
 .our-service__info-container {
     width: 100%;
+    min-height: 152px;
     border: 1px solid #8E8E8E;
     border-radius: 16px;
     margin: 0px 24px 0px 0px;
+    position: relative;
+    
+    
 }
 .our-service__info-container:last-child {
     margin-right: 0px;
 }
 .info__description {
-    padding: 28px 50px 0px 26px;
+    padding: 28px 50px 41px 26px;
 }
 
 .info__details {
-    padding: 41px 0px 19px 27px;
+    padding: 0px 0px 0px 27px;
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
 }
-.details {
 
-}
 .info__details-arrow {
+ 
     margin: 0px 0px 0px 8px;
     transform: rotate(-90deg);
 

@@ -5,6 +5,7 @@
     display: inline-flex;
     flex-wrap: wrap;
     flex: 1 1 auto;
+   
 }
 .advantages__title-text {
     line-height: calc(52 / 40 * 100%);
@@ -15,6 +16,7 @@
 
 .superiority {
     display: flex;
+    width: 100%;
    
 }
 
@@ -71,6 +73,7 @@
 
 .registration-marketing {
     margin: 0 auto;
+    
 }
 .registration-marketing__container {
     background: #D9D9D9;
@@ -101,26 +104,4 @@
     margin: 0px 139px 0px 0px;
 }
 
-.our-service__info {
-    display: flex;
-}
-.our-service__info-container {
-    border: 1px solid #8E8E8E;
-border-radius: 16px;
-}
-.info__description {
-    padding: 28px 50px 0px 26px;
-}
 
-.info__details {
-
-}
-.details {
-
-}
-.info__details-arrow {
-
-}
-.details-text {
-
-}

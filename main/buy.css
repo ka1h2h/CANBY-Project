@@ -1,0 +1,162 @@
+
+.where-to-buy {
+    margin: 0px 0px 130px 0px;
+}
+
+.buy__title-text {
+    font-size: 40px;
+    line-height: calc(48 / 40 * 100%);
+   
+}
+
+.buy__markets {
+    display: inline-flex;
+    padding: 46px 0px 0px 0px;
+    width: 100%;
+  
+    
+}
+
+.buy-markets__container:last-child {
+    margin: 0px 0px 0px 0px;
+}
+
+.buy-markets__container {
+    margin: 0px 24px 0px 0px;
+    width: 100%;
+    
+   
+}
+.market {
+    max-width: 282px;
+    height: 400px;
+    background: #D9D9D9;
+    border-radius: 16px;
+}
+.market__title {
+    padding: 30px 0px 0px 0px;
+}
+
+.market__description {
+    padding: 14px 0px 0px 0px;
+}
+
+.buy-btn__container {
+    display: flex;
+    justify-content: center;
+    margin: 51px 0px 80px 0px;
+}
+
+.long-btn {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(20 / 16 * 100%);
+    color: #FFFFFF;
+    background: #595959;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 242px;
+    height: 48px;
+    border-radius: 4px;   
+}
+
+.favour-offers {
+    height: 261px;
+    background: #D9D9D9;
+    border-radius: 16px;
+    display: flex;
+}
+
+.favour__info {
+    padding: 29px 0px 0px 35px;
+    margin: 0px 114px 0px 0px;
+}
+.favour__title {
+    font-size: 36px;
+    line-height: calc(48 / 40 * 100%);
+}
+.favour__description {
+    padding: 14px 0px 0px 0px;
+}
+
+.favour-image {
+    flex: 1 1 auto;
+    margin: 25px 24px 25px 0px;
+    width: 544px;
+    height: 211px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    border-radius: 16px;
+}
+
+.order_inputs__container {
+    margin: 32px 0px 0px 0px;
+    display: flex;
+    width: 100%;
+    
+}
+
+.inpt {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 276px;
+    height: 56px;
+    background: #F7F7FD;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+ 
+}
+
+.inpt::placeholder {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16 * 100%);
+    color: #212121;
+}
+
+.inpt:last-child {
+    margin: 0px 0px 0px 0px;
+}
+.name-input {
+    margin: 0px 14px 0px 26px;
+    padding: 0px 0px 0px 20px;
+}
+.phone-input {
+  
+    margin: 0px 14px 0px 0px;
+    padding: 0px 0px 0px 20px;
+}
+.mail-input {
+ 
+    padding: 0px 0px 0px 20px;
+}
+.order_inputs__btn {
+    margin: 0px 0px 0px 24px;
+}
+.medium-btn {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(24 / 20 * 100%);
+    color: #FFFFFF;
+    background: #595959;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 202px;
+    height: 56px;
+    border-radius: 4px; 
+}
+
+

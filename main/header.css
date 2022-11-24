@@ -16,11 +16,8 @@
     white-space: nowrap;
 }
 
-.header__logo {
-   
-}
 
-.header__logo-text {
+.logo-text {
     font-family: 'Uber Move';
     color: #5F5F5F;
     font-weight: 700;
@@ -31,13 +28,14 @@
     letter-spacing: 8px;
 }
 
-.header__menu {
+.menu {
     font-family: 'TT Norms';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: calc(18 / 15 * 100%);
 }
+
 
 .header__menu-items {
     padding: 0px 0px 0px 27px;
