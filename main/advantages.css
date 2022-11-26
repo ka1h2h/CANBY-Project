@@ -5,8 +5,8 @@
     display: inline-flex;
     flex-wrap: wrap;
     flex: 1 1 auto;
-   
 }
+
 .advantages__title-text {
     line-height: calc(52 / 40 * 100%);
     font-size: 40px;
@@ -17,7 +17,6 @@
 .superiority {
     display: flex;
     width: 100%;
-   
 }
 
 .superiority__container {
@@ -48,12 +47,23 @@
     padding: 56px 0px 0px 0px;
 }
 
-
 .superiority__img-container {
-    width: 180px;
-    height: 100px;
+    flex: 0 0 12.5%;
+    width: 180px; 
+    height: 100px; 
+    position: relative;
+    overflow: hidden;
     background: #D9D9D9;
     border-radius: 8px;
+}
+
+.superiority__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .description {
@@ -67,25 +77,27 @@
     color: #818181;
 }
 
+
 .superiority__description {
     margin: 14px 0px 0px 0px;
 }
 
 .registration-marketing {
     margin: 0 auto;
-    
+    max-width: 1017px;
 }
+
 .registration-marketing__container {
     background: #D9D9D9;
     border-radius: 16px;
     display: flex;
     margin: 90px 0px 0px 0px;
     align-items: center;
-  
 }
+
 .registration-marketing__title {
     margin: 0px  0px 0px;
-    padding: 45px 152px 42px 56px;
+    padding: 2.34vw 7.92vw 2.19vw 2.92vw;
 }
 
 .registration-marketing__title-text {
@@ -102,6 +114,119 @@
 
 .registration-marketing__btn {
     margin: 0px 139px 0px 0px;
+}
+
+@media (max-width: 1410px) {
+    .our-advantages__container {
+       display: flex;  
+       justify-content: center;
+    }
+    .advantages__title {
+       width: 40.33%;
+        margin: 0px 52px 0px 0px;
+    }
+    .superiority__container:nth-child(2) {
+        padding: 0px 0px 30px 0px;
+    }
+    .superiority__container:nth-child(3) {
+        padding: 0px 45px 0px 0px;
+    }
+    .superiority__container:nth-child(5) {
+        padding: 30px 45px 0px 0px;
+    }
+    .superiority__container:nth-child(6) {
+        padding: 30px 0px 0px 0px;
+    }
+    .superiority__container:nth-child(7) {
+        padding: 30px 45px 0px 0px;
+    }
+    .superiority__container:nth-child(8) {
+        padding: 30px 0px 0px 0px;
+    }
+    .superiority__container {
+        flex: 0 0 40.33%;
+    }
+    .mob {
+        display: none;
+    }
+    .superiority__img-container {
+        height: 200px;
+        width: 250px;
+        width: 100%;
+    }
+    .registration-marketing {
+        margin: 0 auto;
+        max-width: 80%;  
+        text-align: center; 
+}
+    .registration-marketing__container {
+        display: block;
+        margin: 25px 0px 0px 0px;
+    }
+    .registration-marketing__title {
+        margin: 0px  0px 0px;
+        padding: 2.34vw 2.92vw 2.19vw 2.92vw;
+    }
+    .registration-marketing__btn {
+        margin: 0px 0px 25px 0px;
+    }
+}
+@media (max-width: 1440px) {
+    .our-advantages {
+        padding: 58px 0px 48px 0px;
+    }
+}
+
+@media (max-width: 992px) {
+    .our-advantages {
+        padding: 35px 0px 48px 0px;
+    }
+    .description {
+        font-size: calc(16px + (8 + 8 * 0.7) * ((100vw - 375px) / 1440))
+    }
+}
+
+@media (max-width: 420px) {
+    .our-advantages__container {
+        display: block; 
+     }
+     .advantages__title {
+        width: 100%;
+        text-align: center;
+         margin: 0px 0px 0px 0px;
+     }
+     .advantages__title-text {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+     }
+     .superiority__container {
+        width: 100%;
+        text-align: center;
+     } 
+     .superiority__container:nth-child(2) {
+        padding: 15px 0px 0px 0px;
+    }
+    .superiority__container:nth-child(3) {
+        padding: 15px 0px 0px 0px;
+    }
+    .superiority__container:nth-child(4) {
+        padding: 15px 0px 0px 0px;
+    }
+    .superiority__container:nth-child(5) {
+        padding: 15px 0px 0px 0px;
+    }
+    .superiority__container:nth-child(6) {
+        padding: 15px 0px 0px 0px;
+    }
+    .superiority__container:nth-child(7) {
+        padding: 15px 0px 0px 0px;
+    }
+    .superiority__container:nth-child(8) {
+        padding: 15px 0px 0px 0px;
+    }
+    .registration-marketing {
+        max-width: 100%;
+    }
 }
 
 
