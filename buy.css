@@ -153,11 +153,12 @@
     text-align: center;
     display: flex;
     justify-self: center;
+    min-width: 14.02%;
+    min-height: 56px;
 }
 .order_inputs__btn {
     margin: 0px 0px 0px 24px;
-    max-width: 14.02%;
-    max-height: 56px;
+ 
 }
 .medium-btn {
     font-family: 'Nunito Sans';
@@ -252,9 +253,7 @@
         width: 97%;
     }
     .medium-btn { 
-       
         font-size: calc(13px + (10 + 10 * 0.7) * ((100vw - 375px) / 1440));
-        padding: 10px 45px;
     }
     .order_inputs__btn {
         text-align: center;
