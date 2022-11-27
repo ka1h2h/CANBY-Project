@@ -157,8 +157,8 @@
     }
    
     .reg-btn {
-        max-width: 93px;
-        max-height: 10px;
+        min-width: 93px;
+        min-height: 10px;
     }
     .statement__btn {
         margin: 20px 0px 0px 0px;
