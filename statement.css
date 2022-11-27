@@ -64,11 +64,14 @@
     padding: 20px 32px;
     border-radius: 4px;
 }
+.statement__btn-container {
+    min-height: 64px;
+    min-width: 183px;
+}
 
 .statement__btn {
     margin: 49px 0px 0px 0px;
-    max-height: 64px;
-    max-width: 183px;
+    
 }
 
 .statement__details {
@@ -146,12 +149,13 @@
         text-align: center;
         margin: 0 auto;
     }
-    .statement__btn-container {
+    .statement__buttons__container {
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
         max-width: 524px;
     }
+   
     .reg-btn {
         max-width: 93px;
         max-height: 10px;

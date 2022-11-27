@@ -112,6 +112,10 @@
     margin: 14px 0px 0px 0px;
 }
 
+.registration-marketing__btn-container {
+    min-height: 64px;
+    min-width: 183px;
+}
 .registration-marketing__btn {
     margin: 0px 139px 0px 0px;
 }
@@ -170,6 +174,9 @@
     .registration-marketing__title {
         margin: 0px  0px 0px;
         padding: 2.34vw 2.92vw 2.19vw 2.92vw;
+    }
+    .registration-marketing__btn-container {
+
     }
     .registration-marketing__btn {
         margin: 0px 0px 25px 0px;
