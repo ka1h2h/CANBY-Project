@@ -188,6 +188,9 @@
     .where-to-buy__container {
         padding: 35px 0px 0px 0px;
     }
+    .market {
+        min-width: 282px;
+    }
     .buy__title-text {
         text-align: center;
         font-size: calc(27px + (24 + 24 * 0.7) * ((100vw - 375px) / 1440))
