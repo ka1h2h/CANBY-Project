@@ -180,6 +180,7 @@
         padding: 80px 0px 0px 0px;
     }
     .buy__markets {
+        -webkit-overflow-scrolling:touch;
         overflow-x: scroll;
         padding: 35px 0px 0px 0px;
     }

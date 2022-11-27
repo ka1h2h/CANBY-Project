@@ -48,7 +48,8 @@
         font-size: calc(21px + (17.5 + 17.5 * 0.7) * ((100vw - 375px) / 1440));
     }
     .still-services__img-container {
-        overflow-y: scroll;
+        -webkit-overflow-scrolling:touch;
+        overflow-x: scroll;
     }
     .still-services__img-items {
         width: 100%;
