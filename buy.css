@@ -111,6 +111,7 @@
 .order_inputs__container {
     display: flex;
     width: 100%;
+    padding: 25px 0px 0px 0px;
     
 }
 
@@ -180,6 +181,7 @@
     }
     .buy__markets {
         overflow-x: scroll;
+        padding: 35px 0px 0px 0px;
     }
 
 }
@@ -190,6 +192,9 @@
     .buy__title-text {
         text-align: center;
         font-size: calc(27px + (24 + 24 * 0.7) * ((100vw - 375px) / 1440))
+    }
+    .buy__markets {
+        padding: 35px 0px 0px 0px;
     }
     .buy-btn__container {
         margin: 25px 0px 0px 0px;
@@ -222,6 +227,7 @@
         padding: 5px 0px 0px 0px;
     }
     .order_inputs__container {
+        padding: 0px 0px 0px 0px;
         display: block;
         width: 100%;
     }
