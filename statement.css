@@ -96,63 +96,23 @@
 }
 
 .statement__image-container {
-    flex: 0 0 40.83%;
+    flex: 1 1 588px;
+    width: 588px;
+    max-height: 790px;
     background: #EEEEEE;
     border-radius: 16px;
     position: relative;
     overflow: hidden;
-    
 }
 
 .statement__image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
-}
-
-@media (max-width: 992px) and (min-width: 320px) {
-    .main__statement {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .statement__container { 
-        padding: 0px 0px 0px 0px;
-        flex: 0 1 auto;
-    }
-    .statement__title-text {
-        text-align: center;
-        margin: 30px 0px 0px 0px;
-        font-size: calc(27px + (24 + 24 * 0.7) * ((100vw - 375px) / 1440))
-    }
-    .statement__info {
-        text-align: center;
-    }
-    .statement__btn-container {
-        display: flex;
-        justify-content: space-between;
-    }
-    .reg-btn {
-        max-width: 93px;
-        max-height: 10px;
-    }
-    .statement__btn {
-        margin: 20px 0px 0px 0px;
-    }
-    .statement__details-arrow {
-        margin: 0px 20px 0px 0px;
-    }
-    .statement__image-container {
-        flex: 0 1 524px;
-        margin: 20px 0px 0px 0px;
-        position: unset;
-    }
-    .statement__image {
-        position: unset;
-    }
+    object-fit: cover;
+   
 }
 
 @media (max-width: 1440px) {
@@ -167,6 +127,54 @@
         font-size: calc(14px + 10 * (100vw / 1440));
     }
 }
+
+@media (max-width: 992px) and (min-width: 320px) {
+    .main__statement {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .statement__container { 
+        padding: 0px 0px 0px 0px;
+        flex: 1 1 auto;
+    }
+    .statement__title-text {
+        text-align: center;
+        margin: 25px 0px 25px 0px;
+        font-size: calc(27px + (24 + 24 * 0.7) * ((100vw - 375px) / 1440))
+    }
+    .statement__info {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .statement__btn-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 524px;
+    }
+    .reg-btn {
+        max-width: 93px;
+        max-height: 10px;
+    }
+    .statement__btn {
+        margin: 20px 0px 0px 0px;
+    }
+    .statement__details-arrow {
+        margin: 0px 20px 0px 0px;
+    }
+    .statement__image-container {
+        flex: 0 1 524px;
+        min-height: 298.7px;
+        margin: 20px 0px 0px 0px;
+        position: unset;
+    }
+    .statement__image {
+        position: unset;
+    }
+}
+
+
 
 
 

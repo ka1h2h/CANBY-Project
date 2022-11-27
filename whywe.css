@@ -1,4 +1,4 @@
-.why-we {
+.why-we__main-container {
     margin: 101px 0px 0px 0px;
 }
 
@@ -56,10 +56,9 @@
 }
 
 @media (max-width: 1200px) and (min-width: 320px) {
-    .why-we {
-        margin: 51px 0px 0px 0px;
+    .why-we__main-container {
+        margin: 50px 0px 0px 0px;
     }
-    
     .why-we__title {
         text-align: center;
         font-size: calc(21px + (17.5 + 17.5 * 0.7) * ((100vw - 375px) / 1440));

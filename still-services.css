@@ -1,5 +1,6 @@
-.still-services {
-    margin: 155px 0px 0px 0px;  
+
+.still-services__container {
+    margin: 155px 0px 0px 0px;
 }
 
 .still-services__title {
@@ -32,9 +33,15 @@
     font-weight: 700;
 }
 
+@media (max-width: 450px) {
+    .still-services__img-items {
+        margin: 0px 100px 0px 0px;
+    }
+}
+
 @media (max-width: 1200px) and (min-width: 320px) {
-    .still-services {
-        margin: 60px 0px 0px 0px;  
+    .still-services__container {
+        margin: 35px 0px 0px 0px; 
     }
     .still-services__title {
         text-align: center;
@@ -43,9 +50,14 @@
     .still-services__img-container {
         overflow-y: scroll;
     }
+    .still-services__img-items {
+        width: 100%;
+    }
+    .still-services__img-items:last-child {
+        margin: 0px 0px 0px 0px;
+    }
     .img__item {
         min-width: 384px;
     }
-
 
 }

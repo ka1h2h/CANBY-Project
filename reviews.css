@@ -1,8 +1,10 @@
-.reviews {
 
-}
 .reviews-title__container {
     display: flex;
+}
+
+.reviews__container {
+    margin: 130px 0px 0px 0px;
 }
 
 .reviews__amount {
@@ -104,10 +106,12 @@
     .review {
         overflow-x: scroll;
     }
+    .reviews__container {
+        margin: 35px 0px 0px 0px;
+    }
     .review__container {
         margin: 28px 16px 0px 0px;
         min-width: 291px;
-       
     }
     .review__container:last-child {
         margin: 28px 0px 0px 0px;

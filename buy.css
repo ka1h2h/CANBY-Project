@@ -1,6 +1,7 @@
 
-.where-to-buy {
-    margin: 0px 0px 130px 0px;
+
+.where-to-buy__container {
+    padding: 98px 0px 0px 0px;
 }
 
 .buy__title-text {
@@ -12,9 +13,7 @@
     display: inline-flex;
     padding: 46px 0px 0px 0px;
     width: 100%;
-    
 }
-
 .buy-markets__container:last-child {
     margin: 0px 0px 0px 0px;
 }
@@ -57,7 +56,7 @@
 .buy-btn__container {
     display: flex;
     justify-content: center;
-    margin: 51px 0px 80px 0px;
+    margin: 51px 0px 0px 0px;
 }
 
 .long-btn {
@@ -82,6 +81,7 @@
     background: #D9D9D9;
     border-radius: 16px;
     display: flex;
+    margin: 82px 0px 0px 0px;
 }
 
 .favour__info {
@@ -109,7 +109,6 @@
 
 
 .order_inputs__container {
-    margin: 32px 0px 0px 0px;
     display: flex;
     width: 100%;
     
@@ -176,25 +175,30 @@
 }
 
 @media (max-width: 1440px) {
-    .where-to-buy {
-        margin: 0px 0px 60px 0px;
+    .where-to-buy__container {
+        padding: 80px 0px 0px 0px;
     }
     .buy__markets {
         overflow-x: scroll;
     }
+
 }
 @media (max-width: 1200px) and (min-width: 320px) {
+    .where-to-buy__container {
+        padding: 35px 0px 0px 0px;
+    }
     .buy__title-text {
         text-align: center;
         font-size: calc(27px + (24 + 24 * 0.7) * ((100vw - 375px) / 1440))
     }
     .buy-btn__container {
-        margin: 25px 0px 40px 0px;
+        margin: 25px 0px 0px 0px;
     }
     .favour-offers {
         display: block;
         max-width: 962px;
         height: 200px;
+        margin: 25px 0px 0px 0px;
     }
     .favour-image {
         display: none;
@@ -222,18 +226,18 @@
         width: 100%;
     }
     .name-input {
-        margin: 0px 0px 25px 0px;
+        margin: 25px 0px 0px 0px;
         padding: 0px 0px 0px 20px;
         width: 97%;
     }
     .phone-input {
-        margin: 0px 0px 25px 0px;
+        margin: 25px 0px 0px 0px;
         padding: 0px 0px 0px 20px;
         width: 97%;
     }
     .mail-input {
         padding: 0px 0px 0px 20px;
-        margin: 0px 0px 0px 0px;
+        margin: 25px 0px 0px 0px;
         width: 97%;
     }
     .medium-btn { 

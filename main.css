@@ -4,12 +4,12 @@ body {
 
 @font-face {
     font-family: 'Uber Move';
-    src: url('./../fonts/UberMove-Light.woff');
+    src: url('./fonts/UberMove.ttf');
 }
 
 @font-face {
     font-family: 'TT Norms';
-    src: url('./../fonts/TTNorms.ttf');
+    src: url('./fonts/TTNorms.ttf');
 }
 
 .wrapper {
@@ -54,7 +54,6 @@ body {
         padding: 0px 15px 0px 15px;
     }
 }
-
 
 
 a {
