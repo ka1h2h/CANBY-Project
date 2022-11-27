@@ -53,7 +53,7 @@
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: calc(14px + 10 * (100vw / 1440));
+    font-size: 20px;
     line-height: calc(24 / 20 * 100%);
     color: #FFFFFF;
     background: #595959;
@@ -62,8 +62,8 @@
     justify-content: center;
     text-align: center;
     padding: 20px 32px;
-    max-height: 64px;
-    max-width: 183px;
+    height: 64px;
+    width: 183px;
     border-radius: 4px;
 }
 
@@ -121,6 +121,9 @@
     }
     .statement__info-text {
         font-size: calc(12px + 12 * (100vw / 1440));
+    }
+    .reg-btn {
+        font-size: calc(14px + 10 * (100vw / 1440));
     }
 }
 
