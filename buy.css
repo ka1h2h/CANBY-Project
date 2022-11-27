@@ -150,6 +150,7 @@
     padding: 0px 0px 0px 20px;
 }
 .order_inputs__btn-container {
+    text-align: center;
     display: flex;
     justify-self: center;
 }
@@ -251,7 +252,7 @@
         width: 97%;
     }
     .medium-btn { 
-        text-align: center;
+       
         font-size: calc(13px + (10 + 10 * 0.7) * ((100vw - 375px) / 1440));
         padding: 10px 45px;
     }
