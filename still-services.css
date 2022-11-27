@@ -35,7 +35,7 @@
 
 @media (max-width: 450px) {
     .still-services__img-items {
-        margin: 0px 100px 0px 0px;
+        margin: 0px 20px 0px 0px;
     }
 }
 
@@ -57,7 +57,7 @@
         margin: 0px 0px 0px 0px;
     }
     .img__item {
-        min-width: 384px;
+        min-width: 284px;
     }
 
 }
