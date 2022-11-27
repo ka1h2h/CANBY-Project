@@ -149,11 +149,14 @@
     min-height: 56px;
     padding: 0px 0px 0px 20px;
 }
+.order_inputs__btn-container {
+    display: flex;
+    justify-self: center;
+}
 .order_inputs__btn {
     margin: 0px 0px 0px 24px;
     max-width: 14.02%;
     max-height: 56px;
-    text-align: center;
 }
 .medium-btn {
     font-family: 'Nunito Sans';
