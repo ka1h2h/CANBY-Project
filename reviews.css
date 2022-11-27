@@ -104,8 +104,8 @@
 
 @media (max-width: 1200px) and (min-width: 320px) {
     .review {
-        -webkit-overflow-scrolling:touch;
         overflow-x: scroll;
+        -webkit-overflow-scrolling:touch;
     }
     .reviews__container {
         margin: 35px 0px 0px 0px;
