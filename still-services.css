@@ -21,6 +21,7 @@
     margin: 0px 0px 0px 0px;
 }
 
+
 .img__item {
     max-width: 384px;
     height: 240px;
@@ -52,7 +53,7 @@
         -webkit-overflow-scrolling:touch;
     }
     .still-services__img-items {
-        width: 100%;
+        min-width: 284px
     }
     .still-services__img-items:last-child {
         margin: 0px 0px 0px 0px;
