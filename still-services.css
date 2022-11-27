@@ -33,13 +33,13 @@
     font-weight: 700;
 }
 
-@media (max-width: 450px) {
+@media only screen and (max-width: 450px) {
     .still-services__img-items {
         margin: 0px 20px 0px 0px;
     }
 }
 
-@media (max-width: 1200px) and (min-width: 320px) {
+@media only screen and (max-width: 1200px) and (min-width: 320px) {
     .still-services__container {
         margin: 35px 0px 0px 0px; 
     }

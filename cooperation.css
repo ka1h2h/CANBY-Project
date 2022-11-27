@@ -51,7 +51,7 @@
     display: flex;
 }
 
-@media (max-width: 1200px) and (min-width: 320px) {
+@media only screen and (max-width: 1200px) and (min-width: 320px) {
     .cooperation {
         margin: 0px 0px 30px 0px;
     }

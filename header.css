@@ -69,7 +69,7 @@
     margin: 0px 0px 0px 10px;
 }
 
-@media (max-width: 1440px) {
+@media only screen and (max-width: 1440px) {
     .header__container {
         justify-content: space-between;
     }
@@ -85,20 +85,20 @@
     
 }
 
-@media (max-width: 1275px) {
+@media only screen and (max-width: 1275px) {
     .header__menu {
         display: none;
     }
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .header__container {
         height: 70px;
         padding: 0px 0px 0px 0px;
     }
 }
 
-@media (max-width: 992px) and (min-width: 320px) {
+@media only screen and (max-width: 992px) and (min-width: 320px) {
     .logo-text {
         font-size: calc(15px + (7.5 + 7.5 * 0.7) * ((100vw - 375px) / 1440));
         margin: 0px 0px 0px 25px;

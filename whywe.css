@@ -55,7 +55,7 @@
     border-radius: 8px;
 }
 
-@media (max-width: 1200px) and (min-width: 320px) {
+@media only screen and (max-width: 1200px) and (min-width: 320px) {
     .why-we__main-container {
         margin: 35px 0px 0px 0px;
     }

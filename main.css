@@ -28,13 +28,13 @@ body {
     padding: 0px 120px 0px 120px;
     margin: 0 auto;
 }
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     ._container {
         max-width: 970px;
         padding: 0px 80px 0px 80px;
     }
 }
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
     ._container {
         max-width: none;
         padding: 0px 0px 0px 0px;
@@ -44,7 +44,7 @@ body {
         padding: 0px 15px 0px 15px;
     }
 }
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     ._container {
         max-width: none;
         padding: 0px 0px 0px 0px;
