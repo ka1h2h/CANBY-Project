@@ -17,8 +17,6 @@
 
 .footer__menu-lefthand {
     display: flex;
-  
-    
 }
 .footer__menu-block-left {
     padding: 0px 0px 0px 37px;
@@ -50,4 +48,29 @@
 .footer__menu-item-support {
     line-height: calc(19 / 16 * 100%);
     padding: 0px 0px 8px 0px;
+}
+
+@media (max-width: 992px) and (min-width: 320px) {
+    .footer__container {
+        display: flex;
+        justify-content: space-evenly;
+        height: 70px;
+        height: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .footer__menu-content {
+        padding: 0px 0px 0px 0px;
+    }
+    .footer__logo {
+        display: none;
+    }
+    .footer__menu-block-left {
+        padding: 0px 0px 0px 15px;
+    }
+    .footer__menu-item {
+        font-size: calc(12px + (8 + 8 * 0.7) * ((100vw - 375px) / 1440));
+    }
+   .footer__support {
+        display: none;
+    }
 }

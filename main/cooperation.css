@@ -30,15 +30,61 @@
 
 .cooperation__img-container {
     flex: 1 1 auto;
-    width: 792px;
+    max-width: 792px;
+    width: 100%;
     height: 304px;
     background: #D9D9D9;
     border-radius: 16px;
+    position: relative;
+}
+
+.cooperation__img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .cooperation_inputs__container {
     display: flex;
     margin: 32px 0px 0px 0px;
+}
+
+@media (max-width: 1200px) and (min-width: 320px) {
+    .cooperation {
+        margin: 0px 0px 30px 0px;
+    }
+    .cooperation__container {
+        margin: 50px 0px 0px 0px;
+        display: block;
+    }
+    .cooperations__roadmap {
+        display: flex;
+        justify-content: center;
+    }
+    .cooperation__title {
+        text-align: center;
+        font-size: calc(21px + (17.5 + 17.5 * 0.7) * ((100vw - 375px) / 1440));
+    }
+    .cooperations__items {
+        font-size: calc(12px + (8 + 8 * 0.7) * ((100vw - 375px) / 1440));
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+    }
+    .cooperation-info__item {
+        text-align: left;
+        font-size: calc(14px + (8 + 8 * 0.7) * ((100vw - 375px) / 1440));
+    }
+    .cooperation__img-container {
+        margin: 0 auto;
+        /* max-width: 584px; */
+    }
+    .cooperation_inputs__container {
+        display: block;
+        width: 100%;
+    }
+    
 }
 
 

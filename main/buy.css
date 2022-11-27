@@ -12,7 +12,7 @@
     display: inline-flex;
     padding: 46px 0px 0px 0px;
     width: 100%;
-    overflow-x: scroll;
+    
 }
 
 .buy-markets__container:last-child {
@@ -120,12 +120,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    min-width: 276px;
-    min-height: 56px;
     background: #F7F7FD;
     border-radius: 4px;
     outline: none;
     border: none;
+    width: 20.55%;
 }
 
 .inpt::placeholder {
@@ -141,15 +140,17 @@
     margin: 0px 0px 0px 0px;
 }
 .name-input {
+    min-height: 56px;
     margin: 0px 14px 0px 26px;
     padding: 0px 0px 0px 20px;
 }
 .phone-input {
+    min-height: 56px;
     margin: 0px 14px 0px 0px;
     padding: 0px 0px 0px 20px;
 }
 .mail-input {
- 
+    min-height: 56px;
     padding: 0px 0px 0px 20px;
 }
 .order_inputs__btn {
@@ -168,21 +169,31 @@
     justify-content: center;
     text-align: center;
     padding: 16px 32px;
-    max-width: 202px;
-    max-height: 56px;
+    width: 14.02%;
+    white-space: nowrap;
+    /* height: 56px; */
     border-radius: 4px; 
 }
 
-
+@media (max-width: 1440px) {
+    .where-to-buy {
+        margin: 0px 0px 60px 0px;
+    }
+    .buy__markets {
+        overflow-x: scroll;
+    }
+}
 @media (max-width: 1200px) and (min-width: 320px) {
     .buy__title-text {
         text-align: center;
+        font-size: calc(27px + (24 + 24 * 0.7) * ((100vw - 375px) / 1440))
     }
     .buy-btn__container {
         margin: 25px 0px 40px 0px;
     }
     .favour-offers {
         display: block;
+        max-width: 962px;
         height: 200px;
     }
     .favour-image {
@@ -199,6 +210,12 @@
     .favour__description {
         display: block;
         padding: 14px 0px 0px 0px;
+    }
+    .market__title {
+        padding: 15px 0px 0px 0px;
+    }
+    .market__description {
+        padding: 5px 0px 0px 0px;
     }
     .order_inputs__container {
         display: block;
@@ -220,7 +237,8 @@
         width: 97%;
     }
     .medium-btn { 
-        font-size: calc(13px + (10 + 10 * 0.7) * ((100vw - 375px) / 1440))
+        font-size: calc(13px + (10 + 10 * 0.7) * ((100vw - 375px) / 1440));
+        padding: 10px 45px;
     }
     .order_inputs__btn {
         margin: 25px 0px 0px 0px;
