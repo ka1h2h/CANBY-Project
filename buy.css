@@ -21,8 +21,6 @@
 .buy-markets__container {
     margin: 0px 24px 0px 0px;
     width: 100%;
-    
-   
 }
 .market {
     flex: 0 0 19.58%;
@@ -188,7 +186,7 @@
     .where-to-buy__container {
         padding: 35px 0px 0px 0px;
     }
-    .market {
+    .buy-markets__container {
         min-width: 282px;
     }
     .buy__title-text {
