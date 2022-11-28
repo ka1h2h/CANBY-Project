@@ -1,2 +1,3 @@
 # CANBY-Project
-permalink: /index.html
+
+https://ka1h2h.github.io/CANBY-Project/index.html
