@@ -81,7 +81,7 @@
         padding: 0px 0px 0px 0px;
     }
     .footer__menu {
-        display: none;
+        padding: 0px 0px 0px 0px;
     }
     .footer__menu-lefthand {
         display: block;
@@ -89,6 +89,7 @@
     }
     .footer__menu-mobile {
         display: block;
+    
     }
     .footer__logo {
         display: none;
