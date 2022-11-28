@@ -1,6 +1,3 @@
-.cooperation {
-    margin: 0px 0px 79px 0px;
-}
 .cooperation__container {
     margin: 117px 0px 0px 0px;
     display: flex;
@@ -28,6 +25,7 @@
     font-size: 16px;
 }
 
+
 .cooperation__img-container {
     flex: 1 1 auto;
     max-width: 792px;
@@ -49,12 +47,10 @@
 
 .cooperation_inputs__container {
     display: flex;
+    margin: 25px 0px 0px 0px;
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 320px) {
-    .cooperation {
-        margin: 0px 0px 30px 0px;
-    }
     .cooperation__container {
         margin: 30px 0px 0px 0px;
         display: block;
@@ -78,10 +74,10 @@
     }
     .cooperation__img-container {
         margin: 0 auto;
-        /* max-width: 584px; */
     }
     .cooperation_inputs__container {
         display: block;
+        margin: 25px 0px 0px 0px;
         width: 100%;
     }
     

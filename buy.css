@@ -1,14 +1,10 @@
-
-
 .where-to-buy__container {
     padding: 98px 0px 0px 0px;
 }
-
 .buy__title-text {
     font-size: 40px;
     line-height: calc(48 / 40 * 100%);
 }
-
 .buy__markets {
     display: inline-flex;
     padding: 46px 0px 0px 0px;
@@ -17,7 +13,6 @@
 .buy-markets__container:last-child {
     margin: 0px 0px 0px 0px;
 }
-
 .buy-markets__container {
     margin: 0px 24px 0px 0px;
     width: 100%;
@@ -30,7 +25,6 @@
     background: #D9D9D9;
     border-radius: 16px;
 }
-
 .market__img {
     width: 100%;
     height: 100%;
@@ -39,22 +33,17 @@
     top: 0;
     left: 0;
 }
-
-
 .market__title {
     padding: 30px 0px 0px 0px;
 }
-
 .market__description {
     padding: 14px 0px 0px 0px;
 }
-
 .buy-btn__container {
     display: flex;
     justify-content: center;
     margin: 51px 0px 0px 0px;
 }
-
 .long-btn {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -71,7 +60,6 @@
     height: 48px;
     border-radius: 4px;   
 }
-
 .favour-offers {
     height: 261px;
     background: #D9D9D9;
@@ -79,7 +67,6 @@
     display: flex;
     margin: 82px 0px 0px 0px;
 }
-
 .favour__info {
     padding: 29px 0px 0px 35px;
     margin: 0px 114px 0px 0px;
@@ -91,7 +78,6 @@
 .favour__description {
     padding: 14px 0px 0px 0px;
 }
-
 .favour-image {
     flex: 1 1 auto;
     margin: 25px 24px 25px 0px;
@@ -101,16 +87,11 @@
     border: 1px solid #000000;
     border-radius: 16px;
 }
-
-
-
 .order_inputs__container {
     display: flex;
     width: 100%;
     padding: 25px 0px 0px 0px;
-    
 }
-
 .inpt {
     display: inline-flex;
     flex-direction: column;
@@ -122,7 +103,6 @@
     border: none;
     width: 20.55%;
 }
-
 .inpt::placeholder {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -131,7 +111,6 @@
     line-height: calc(24 / 16 * 100%);
     color: #212121;
 }
-
 .inpt:last-child {
     margin: 0px 0px 0px 0px;
 }
@@ -158,7 +137,6 @@
 }
 .order_inputs__btn {
     margin: 0px 0px 0px 24px;
- 
 }
 .medium-btn {
     font-family: 'Nunito Sans';
@@ -176,8 +154,7 @@
     white-space: nowrap;
     border-radius: 4px; 
 }
-
-@media only screen and (max-width: 1440px) {
+@media (max-width: 1440px) {
     .where-to-buy__container {
         padding: 80px 0px 0px 0px;
     }
@@ -188,7 +165,7 @@
     }
 
 }
-@media only screen and (max-width: 1200px) and (min-width: 320px) {
+@media (max-width: 1200px) and (min-width: 320px) {
     .where-to-buy__container {
         padding: 35px 0px 0px 0px;
     }

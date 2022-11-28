@@ -1,20 +1,22 @@
 .footer {
     max-width: 1920px;
     margin: 0 auto;
-   
+    padding: 79px 0px 0px 0px;
 }
 .footer__container {
     height: 169px;
     background: #D9D9D9;
+    display: flex;
+    width: 100%;
+ 
+    margin: 0 auto;
 }
-
 .footer__menu-content {
     display: flex;
     justify-content: space-between;
-    padding: 30px 117px 0px 120px;
-    
+    padding: 30px 120px 0px 120px;
+    width: 100%;
 }
-
 .footer__menu-lefthand {
     display: flex;
 }
@@ -28,7 +30,6 @@
     text-align: right;
    color: #818181;
 }
-
 .footer__menu-item {
     font-size: 16px;
     line-height: calc(19 / 16 * 100%);
@@ -38,19 +39,37 @@
 .footer__menu-link {
     color: #818181;
 }
-
-
 .footer__menu-item-bold {
     padding: 0px 0px 8px 0px;
     font-weight: 700;   
 }
-
 .footer__menu-item-support {
     line-height: calc(19 / 16 * 100%);
     padding: 0px 0px 8px 0px;
 }
+.footer__menu-mobile {
+    display: none;
+}
 
-@media only screen and (max-width: 992px) and (min-width: 320px) {
+@media (max-width: 1200px) {
+    .footer {
+        padding: 30px 0px 0px 0px;
+    }
+    .footer__menu-content {
+        padding: 0px 80px 0px 80px;
+    }
+    .footer__container {
+        height: 130px;
+    }
+}
+@media (max-width: 992px) and (min-width: 320px) {
+    .footer {
+        padding: 50px 0px 0px 0px;
+    }
+    .footer__container {
+        display: block;
+        height: 169px;
+    }
     .footer__container {
         display: flex;
         justify-content: space-evenly;
@@ -61,6 +80,16 @@
     .footer__menu-content {
         padding: 0px 0px 0px 0px;
     }
+    .footer__menu {
+        display: none;
+    }
+    .footer__menu-lefthand {
+        display: block;
+        margin: 0 auto;
+    }
+    .footer__menu-mobile {
+        display: block;
+    }
     .footer__logo {
         display: none;
     }
@@ -68,6 +97,12 @@
         padding: 0px 0px 0px 15px;
     }
     .footer__menu-item {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        line-height: calc(19 / 16 * 100%);
+        color: #818181;
+        text-align: center;
         font-size: calc(12px + (8 + 8 * 0.7) * ((100vw - 375px) / 1440));
     }
    .footer__support {

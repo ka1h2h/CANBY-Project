@@ -1,17 +1,13 @@
-
 .reviews-title__container {
     display: flex;
 }
-
 .reviews__container {
     margin: 130px 0px 0px 0px;
 }
-
 .reviews__amount {
     margin-left: auto;
     display: flex;
 }
-
 .reviews__amount-container:nth-child(2) {
     margin: 0px 0px 0px 39px;    
 }
@@ -19,12 +15,10 @@
     font-size: 35px;
     line-height: calc(48 / 35 * 100%);
 }
-
 .review {
     display: flex;
     width: 100%;
 }
-
 .review__container {
     margin: 48px 16px 0px 0px;
     padding: 16px 0px 0px 16px;
@@ -32,16 +26,12 @@
     border-radius: 16px;
     width: 100%;
 }
-
 .review__container:last-child {
     margin: 48px 0px 0px 0px;
 }
-
 .review__user {
     display: flex;
 }
-
-
 .review__user-info {
     margin: 0px 0px 0px 8px;
 }
@@ -55,29 +45,22 @@
     font-size: 15px;
     line-height: calc(18 / 15 * 100%);
 }
-
-.review__rating {
-
-}
 .review__user-date {
     font-size: 12px;
     line-height: calc(14 / 12 * 100%)
 }
-
 .review__text {
     width: 100%;
     padding: 16px 0px 16px 0px;
     font-size: 14px;
     line-height: calc(17 / 14 * 100%);
 }
-
 .reviews__slides {
     padding: 52px 0px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .slide__button {
     margin: 0px 16px 0px 0px;
     width: 12px;
@@ -85,23 +68,18 @@
     border-radius: 50%;
     background: #D9D9D9;
 }
-
 .slide-active {
     width: 19px;
     height: 19px;
     background: #818181;
 }
-
 .reviews__btn {
     margin: 56px 0px 0px 0px;
 }
-
 .reviews__btn-container {
     display: flex;
     justify-content: center;
 }
-
-
 @media (max-width: 1200px) and (min-width: 320px) {
     .review {
         overflow-x: scroll;
@@ -120,7 +98,6 @@
     .reviews-title__container {
         display: block;
         text-align: center;
-    
     }
     .reviews__title {
         font-size: calc(21px + (17.5 + 17.5 * 0.7) * ((100vw - 375px) / 1440));
@@ -139,5 +116,4 @@
     .reviews__btn {
         margin: 25px 0px 0px 0px;
     }
-
 }
